@@ -234,7 +234,9 @@ body {
   color: var(--primary);
   text-decoration: none;
 }
-
+.project-card.featured {
+  grid-column: 1 / -1;
+}
 @media (max-width: 760px) {
   .menu-btn {
     display: inline-block;
